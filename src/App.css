@@ -1,8 +1,10 @@
+/* CSS for the Entire Page */
 .App {
     position: relative;
     min-height: 100vh;
 }
 
+/* CSS for main.js */
 .mainPageContent {
     padding-bottom: 2.5rem;
     position: fixed;

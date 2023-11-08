@@ -5,25 +5,19 @@ import '../App.css';
 
 function NavBar() {
     return (
-        <nav>
+        <nav className='navigationalBar'>
             <div className='name'>
-                HK
+                <a href="mainPage">HK</a>
             </div>
             <ul>
                 <li>
-                    <NavLink to='/'> About Me </NavLink>
-                </li>
-                <li>
-                    <NavLink to='/projects'> Projects </NavLink>
+                    <NavLink to='/resume'> Resume </NavLink>
                 </li>
                 <li>
                     <NavLink to='/skills'> Skills </NavLink>
                 </li>
                 <li>
-                    <NavLink to='/socialMedia'> Social Media </NavLink>
-                </li>
-                <li>
-                    <NavLink to='/resume'> Resume </NavLink>
+                    <NavLink to='/projects'> Projects </NavLink>
                 </li>
             </ul>
         </nav>
