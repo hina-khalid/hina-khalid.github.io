@@ -1,19 +1,22 @@
 import './App.css';
 import React from "react";
-import { BrowserRouter } from 'react-router-dom'
-import MainPage from './components/main';
-import NavBar from './components/navBar';
-import Footer from './components/footer'
+import About from './components/About';
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <div className="App">
-      <BrowserRouter>
-        <NavBar />
-        <MainPage />
-        <Footer />
-      </BrowserRouter>
-    </div >
+    <main>
+      <About />
+      <NavBar />
+      <Footer />
+    </main>
+
+    // <div className="App">
+    //   <NavBar />
+    //   <MainPage />
+    //   <Footer />
+    // </div >
   )
 }
 
