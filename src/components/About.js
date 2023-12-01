@@ -1,4 +1,3 @@
-import React from 'react';
 import '../App.css';
 import mainImage from '../assets/hinaPortfolio.jpeg'
 
@@ -12,9 +11,9 @@ const About = () => {
                         <br />Welcome to my portfolio.
                     </h1>
                     <p className="mb-8 leading-relaxed">
-                        I am an engineer with a background in JavaScript, React/Redux, Node.js/Express, and PostgreSQL/NoSQL databases.
+                        I am an engineer with a background in JavaScript, React, Redux, Node.js, Express, and PostgreSQL, NoSQL databases.
                     </p>
-                    <div className="flex justify-center">
+                    {/* <div className="flex justify-center">
                         <a
                             href="#contact"
                             className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
@@ -25,7 +24,7 @@ const About = () => {
                             className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
                             Past Work
                         </a>
-                    </div>
+                    </div> */}
                 </div>
                 <div>
                     <img
