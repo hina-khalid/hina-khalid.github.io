@@ -2,7 +2,7 @@ import './App.css';
 import React from "react";
 import About from './components/About';
 import NavBar from './components/NavBar';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 import Projects from './components/Projects';
 
 const App = () => {
@@ -11,7 +11,7 @@ const App = () => {
       <NavBar />
       <About />
       <Projects />
-      <Footer />
+      {/* <Footer /> */}
     </main>
 
     // <div className="App">
