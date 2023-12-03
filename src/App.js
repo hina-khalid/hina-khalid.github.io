@@ -4,6 +4,8 @@ import About from './components/About';
 import NavBar from './components/NavBar';
 // import Footer from './components/Footer';
 import Projects from './components/Projects';
+import Skills from './components/Skills';
+import Socials from './components/TalksPubs';
 
 const App = () => {
   return (
@@ -11,6 +13,8 @@ const App = () => {
       <NavBar />
       <About />
       <Projects />
+      <Skills />
+      <Socials />
       {/* <Footer /> */}
     </main>
 

@@ -10,16 +10,13 @@ const NavBar = () => {
             <nav className='hidden md:block'>
                 <ul className='flex'>
                     <li>
-                        <a href='/about' className='ml-5'>About</a>
+                        <a href='/#about' className='ml-5'>About</a>
                     </li>
                     <li>
-                        <a href='/projects' className='ml-5'>Projects</a>
+                        <a href='/#projects' className='ml-5'>Projects</a>
                     </li>
                     <li>
-                        <a href='/skills' className='ml-5'>Skills</a>
-                    </li>
-                    <li>
-                        <a href='/socials' className='ml-5'>Socials</a>
+                        <a href='/#skills' className='ml-5'>Skills</a>
                     </li>
                 </ul>
             </nav>

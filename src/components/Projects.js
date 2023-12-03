@@ -26,7 +26,7 @@ const projects = [
 
 const Projects = () => {
     return (
-        <section className='bg-teal-50 text-black px-5 py32'>
+        <section className='bg-teal-50 text-black px-5 py32 pt-10 pb-10'>
             <div className="about-info mb-5">
                 <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-200 pb-2">
                     Projects
@@ -57,5 +57,6 @@ const Projects = () => {
         </section >
     );
 };
+
 
 export default Projects;
