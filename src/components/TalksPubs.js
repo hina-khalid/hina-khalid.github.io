@@ -6,7 +6,7 @@ const TalksPublications = () => {
     return (
         <section id="talksPublications" className='bg-gray-50 pt-10 pb-10'>
             <div className="px-5 md:flex-row flex-col items-center container mx-auto">
-                <h1 className="text-4xl font-bold mb-5 border-b-[5px] w-[380px] border-indigo-200 pb-2">
+                <h1 className="text-4xl font-bold mb-5 border-b-[5px] w-[340px] border-indigo-200 pb-2">
                     Talk & Publication
                 </h1>
             </div>

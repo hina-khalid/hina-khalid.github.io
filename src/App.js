@@ -1,11 +1,11 @@
 import './App.css';
 import React from "react";
-import About from './components/About';
 import NavBar from './components/NavBar';
-// import Footer from './components/Footer';
+import About from './components/About';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
-import Socials from './components/TalksPubs';
+import TalkPublication from './components/TalksPubs'
+import Contact from './components/ContactMe'
 
 const App = () => {
   return (
@@ -14,15 +14,9 @@ const App = () => {
       <About />
       <Projects />
       <Skills />
-      <Socials />
-      {/* <Footer /> */}
+      <TalkPublication />
+      <Contact />
     </main>
-
-    // <div className="App">
-    //   <NavBar />
-    //   <MainPage />
-    //   <Footer />
-    // </div >
   )
 }
 
