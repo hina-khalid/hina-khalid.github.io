@@ -13,7 +13,7 @@ const About = () => {
                         Hi there, I'm Hina
                     </h1>
                     <p className="mb-8 leading-relaxed">
-                        Fullstack Software Engineer. Previously worked with OpenFin and DevDux.
+                        Fullstack Software Engineer.
                     </p>
                     <div className="flex justify-center gap-10">
                         <a
