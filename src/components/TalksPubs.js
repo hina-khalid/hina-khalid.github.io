@@ -11,7 +11,7 @@ const TalksPublications = () => {
                 </h1>
             </div>
             <div className='grid md:grid-cols-2 gap-20 container mx-auto pl-5'>
-                <video src={techTalk} className="h-full bg-black border-4 border-purple-200" controls />
+                {/* <video src={techTalk} className="h-full bg-black border-4 border-purple-200" controls /> */}
                 <a href="https://devdux.medium.com/devdux-a-new-open-source-vs-code-extension-for-redux-rtk-f7d3b8838083">
                     <img src={devdux} alt="devdux article" className='border-4 border-purple-200 ' />
                 </a>
