@@ -3,8 +3,6 @@ import mainImage from '../assets/hinaPortfolio.jpeg'
 import linkedinLogo from '../assets/linkedin.svg';
 import githubLogo from '../assets/github.svg'
 import mediumLogo from '../assets/medium.svg'
-import Resume from './Resume'
-import resume from '../assets/resume.pdf'
 
 const About = () => {
     return (
@@ -29,7 +27,6 @@ const About = () => {
                             <img src={githubLogo} alt="github" />
                         </a>
                     </div>
-                    <Resume />
                 </div>
                 <div>
                     <img
